@@ -22,6 +22,7 @@ AddDialog::AddDialog(QWidget *parent) :
     connect(ui->editId ,SIGNAL(textChanged(const QString &)), this, SLOT(Reset(const QString &)));
 
     ui->pushAdd->setEnabled(false);
+    printf("test");///edit
 }
 
 void AddDialog::Reset(const QString &)
